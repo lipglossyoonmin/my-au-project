@@ -498,8 +498,8 @@ export default function App() {
         {/* MAIN CHAT AREA */}
         <div className="flex-1 flex flex-col min-w-0 relative bg-[#36393f] z-10">
           
-          {/* HEADER */}
-          <div className="h-12 flex items-center justify-between px-4 border-b border-gray-900/20 shadow-sm flex-shrink-0">
+         {/* HEADER */}
+          <div className="h-14 md:h-12 pt-4 md:pt-0 flex items-center justify-between px-4 border-b border-gray-900/20 shadow-sm flex-shrink-0">
             <div className="flex items-center gap-3 font-bold text-white">
               {!isChannelsOpen && (
                 <button 
