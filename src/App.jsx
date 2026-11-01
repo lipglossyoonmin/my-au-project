@@ -10,13 +10,13 @@ import {
 
 // --- DATA ---
 const USERS = {
-  jin: { name: "Seokjin", avatar: "https://static.wikia.nocookie.net/the-bangtan-boys/images/8/8b/Kim_Seokjin_-_BTS_Universe.jpg/revision/latest?cb=20190804020030", status: "online", color: "text-pink-400" },
-  joon: { name: "Namjoon", avatar: "https://static.wikia.nocookie.net/the-bangtan-boys/images/b/b5/RM_Problematic_Men_%282%29.jpg/revision/latest?cb=20190609040234", status: "online", color: "text-blue-400" },
-  hobi: { name: "Hoseok", avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcnJvrRG-g15NEMCzgtX2JSqBqrJJlz3k3RnwX0l_JDuzBhFIcqIHR-Bw&s=10", status: "online", color: "text-green-400" },
-  jimin: { name: "Jimin", avatar: "https://static.wikia.nocookie.net/the-bangtan-boys/images/2/2c/Jimin_ARIRANG_concept_photo_2.png/revision/latest?cb=20260320042721", status: "online", color: "text-yellow-400" },
-  tae: { name: "Taehyung", avatar: "https://www.rollingstone.com/wp-content/uploads/2023/09/BTSV.jpg?w=1581&h=1054&crop=1", status: "online", color: "text-purple-400" },
-  jk: { name: "Jungkook", avatar: "https://cdn.shopify.com/s/files/1/0469/3927/5428/files/7788dc8fe991fcb8c684d1e462c7a61a.jpg?v=1724081793", status: "online", color: "text-orange-400" },
-  yoongi: { name: "Yoongi", avatar: "https://external-preview.redd.it/180420-yoongi-v0-jiW55CqO0mobW435JNE2uFmsYjQdIXz8f5BeWpUmGso.jpg?auto=webp&s=0b4b6a876808b627458579e207e4ec3fa7b55f95", status: "offline", color: "text-gray-400" } 
+  jin: { name: "Seokjin", avatar: "/seokjin.png", status: "online", color: "text-pink-400" },
+  joon: { name: "Namjoon", avatar: "/namjoon.png", status: "online", color: "text-blue-400" },
+  hobi: { name: "Hoseok", avatar: "/hoseok.png", status: "idle", color: "text-green-400" },
+  jimin: { name: "Jimin", avatar: "/jimin.png", status: "dnd", color: "text-yellow-400" },
+  tae: { name: "Taehyung", avatar: "/taehyung.png", status: "offline", color: "text-purple-400" },
+  jk: { name: "Jungkook", avatar: "/jungkook.png", status: "dnd", color: "text-red-400" },
+  yoongi: { name: "Yoongi", avatar: "/yoongi.png", status: "offline", color: "text-gray-400" }
 };
 
 // General Channel Data - Historical Banter + The Panic
