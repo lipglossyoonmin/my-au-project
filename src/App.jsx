@@ -12,10 +12,10 @@ import {
 const USERS = {
   jin: { name: "Seokjin", avatar: "/seokjin.png", status: "online", color: "text-pink-400" },
   joon: { name: "Namjoon", avatar: "/namjoon.png", status: "online", color: "text-blue-400" },
-  hobi: { name: "Hoseok", avatar: "/hoseok.png", status: "idle", color: "text-green-400" },
-  jimin: { name: "Jimin", avatar: "/jimin.png", status: "dnd", color: "text-yellow-400" },
-  tae: { name: "Taehyung", avatar: "/taehyung.png", status: "offline", color: "text-purple-400" },
-  jk: { name: "Jungkook", avatar: "/jungkook.png", status: "dnd", color: "text-red-400" },
+  hobi: { name: "Hoseok", avatar: "/hoseok.png", status: "online", color: "text-green-400" },
+  jimin: { name: "Jimin", avatar: "/jimin.png", status: "online", color: "text-yellow-400" },
+  tae: { name: "Taehyung", avatar: "/taehyung.png", status: "online", color: "text-purple-400" },
+  jk: { name: "Jungkook", avatar: "/jungkook.png", status: "online", color: "text-red-400" },
   yoongi: { name: "Yoongi", avatar: "/yoongi.png", status: "offline", color: "text-gray-400" }
 };
 
